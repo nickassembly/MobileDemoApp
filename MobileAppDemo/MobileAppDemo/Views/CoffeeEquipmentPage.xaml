@@ -4,11 +4,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="White">
 
-        <StackLayout>
-        <Label HorizontalOptions="CenterAndExpand" 
-                Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                />
-        </StackLayout>
+    <Grid RowDefinitions="*,Auto, Auto, *">
+
+        <Label
+                x:Name="LabelCount"
+                Grid.Row="1"
+                HorizontalOptions="Center" 
+                FontSize="Large"
+                Text="Click Me" 
+               />
+        
+        <Button x:Name="ButtonClick"
+                Clicked="ButtonClick_Clicked"
+                Grid.Row="2" Text="Click Me" />
+
+    </Grid>
 
 </ContentPage>

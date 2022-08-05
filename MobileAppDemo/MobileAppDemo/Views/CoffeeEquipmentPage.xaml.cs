@@ -16,5 +16,13 @@ namespace MobileAppDemo.Views
         {
             InitializeComponent();
         }
+
+        int count = 0;
+
+        private void ButtonClick_Clicked(object sender, EventArgs e)
+        {
+            count++;
+            LabelCount.Text = $"You clicked {count} times";
+        }
     }
 }
