@@ -2,7 +2,12 @@
 <ContentPage x:Class="MobileAppDemo.Views.CoffeeEquipmentPage"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundColor="White">
+             xmlns:viewModels="clr-namespace:MobileAppDemo.ViewModels"
+             BackgroundColor="White"
+             x:DataType="viewModels:CoffeeEquipmentViewModel">
+    <ContentPage.BindingContext>
+        <viewModels:CoffeeEquipmentViewModel />
+    </ContentPage.BindingContext>
 
     <Grid RowDefinitions="*,Auto, Auto, *">
 
@@ -11,11 +16,11 @@
                 Grid.Row="1"
                 HorizontalOptions="Center" 
                 FontSize="Large"
-                Text="Click Me" 
+                Text="{Binding CountDisplay}" 
                />
         
-        <Button x:Name="ButtonClick"
-                Clicked="ButtonClick_Clicked"
+        <Button
+                Command="{Binding IncreaseCount}"
                 Grid.Row="2" Text="Click Me" />
 
     </Grid>
