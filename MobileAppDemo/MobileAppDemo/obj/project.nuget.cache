@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DhSxT8UIukgf1/WJosNE7RKTizSCQ7o0nFno1Ll4cJtzkxeZW+amsvTU0E3Ch3jISf0O6bblm56opryLGugWCg==",
+  "dgSpecHash": "J1c0JPdQkroWHlpI+5VgbcQbDW3Ikd4kRGTDbLzjkxio4tX/3ReFnLjS9S2uNQTuVbrHWFpZShhcd2roawomuw==",
   "success": true,
   "projectFilePath": "D:\\source\\repos\\Dotnet\\MobileAppDemo\\MobileAppDemo\\MobileAppDemo\\MobileAppDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nickg\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\nickg\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\nickg\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\nickg\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\nickg\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\nickg\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512",
     "C:\\Users\\nickg\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512"
   ],
