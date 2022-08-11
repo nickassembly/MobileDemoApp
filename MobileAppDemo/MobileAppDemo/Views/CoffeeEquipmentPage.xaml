@@ -9,20 +9,9 @@
         <viewModels:CoffeeEquipmentViewModel />
     </ContentPage.BindingContext>
 
-    <Grid RowDefinitions="*,Auto, Auto, *">
-
-        <Label
-                x:Name="LabelCount"
-                Grid.Row="1"
-                HorizontalOptions="Center" 
-                FontSize="Large"
-                Text="{Binding CountDisplay}" 
-               />
+    <ListView BackgroundColor="Transparent">
         
-        <Button
-                Command="{Binding IncreaseCount}"
-                Grid.Row="2" Text="Click Me" />
+    </ListView>
 
-    </Grid>
 
 </ContentPage>
